@@ -61,5 +61,6 @@ extension ViewController: UIImagePickerControllerDelegate, UINavigationControlle
         }
         
         imageView.image = uiImage
+        performVisionRequest(image: uiImage)
     }
 }

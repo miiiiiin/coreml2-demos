@@ -12,6 +12,8 @@
 		37A9B8692173A7BE00806489 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A9B8672173A7BE00806489 /* Main.storyboard */; };
 		37A9B86B2173A7C000806489 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37A9B86A2173A7C000806489 /* Assets.xcassets */; };
 		37A9B86E2173A7C000806489 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A9B86C2173A7C000806489 /* LaunchScreen.storyboard */; };
+		381AA1382BF91CF7004783DE /* ViewController+Vision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381AA1372BF91CF7004783DE /* ViewController+Vision.swift */; };
+		381AA13A2BF91D86004783DE /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381AA1392BF91D86004783DE /* UIImage+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		37A9B86A2173A7C000806489 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37A9B86D2173A7C000806489 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37B302F52188EAA7005DED1E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		381AA1372BF91CF7004783DE /* ViewController+Vision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Vision.swift"; sourceTree = "<group>"; };
+		381AA1392BF91D86004783DE /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				37A9B86A2173A7C000806489 /* Assets.xcassets */,
 				37A9B86C2173A7C000806489 /* LaunchScreen.storyboard */,
 				37B302F52188EAA7005DED1E /* Info.plist */,
+				381AA1372BF91CF7004783DE /* ViewController+Vision.swift */,
+				381AA1392BF91D86004783DE /* UIImage+Extension.swift */,
 			);
 			path = "Image Analyzer";
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			files = (
 				37A9B8662173A7BE00806489 /* ViewController.swift in Sources */,
 				37A9B8642173A7BE00806489 /* AppDelegate.swift in Sources */,
+				381AA1382BF91CF7004783DE /* ViewController+Vision.swift in Sources */,
+				381AA13A2BF91D86004783DE /* UIImage+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
